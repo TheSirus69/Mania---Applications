@@ -1,0 +1,60 @@
+{
+    "token": "YOUR_BOT_TOKEN",
+    "clientId": "YOUR_CLIENT_ID",
+    "guildId": "YOUR_GUILD_ID",
+    "commandChannelId": "YOUR_COMMAND_CHANNEL_ID",
+    "applicationsChannelId": "YOUR_APPLICATIONS_CHANNEL_ID",
+    "applicationTypes": [
+      {
+        "id": "apply_moderator",
+        "label": "Moderator",
+        "color": "Primary",
+        "role": "YOUR_MODERATOR_ROLE_ID",
+        "form": [
+          { "customId": "name", "label": "Name", "style": "Short", "placeholder": "Enter your name", "required": true },
+          { "customId": "reason", "label": "Why do you want to be a Moderator?", "style": "Paragraph", "placeholder": "Enter your reason", "required": true }
+        ]
+      },
+      {
+        "id": "apply_builder",
+        "label": "Builder",
+        "color": "Primary",
+        "role": "YOUR_BUILDER_ROLE_ID",
+        "form": [
+          { "customId": "name", "label": "Name", "style": "Short", "placeholder": "Enter your name", "required": true },
+          { "customId": "experience", "label": "Do you have any building experience?", "style": "Paragraph", "placeholder": "Enter your experience", "required": true }
+        ]
+      },
+      {
+        "id": "apply_developer",
+        "label": "Developer",
+        "color": "Primary",
+        "role": "YOUR_DEVELOPER_ROLE_ID",
+        "form": [
+          { "customId": "name", "label": "Name", "style": "Short", "placeholder": "Enter your name", "required": true },
+          { "customId": "skills", "label": "What development skills do you have?", "style": "Paragraph", "placeholder": "Enter your skills", "required": true }
+        ]
+      },
+      {
+        "id": "apply_helper",
+        "label": "Helper",
+        "color": "Success",
+        "role": "YOUR_HELPER_ROLE_ID",
+        "form": [
+          { "customId": "name", "label": "Name", "style": "Short", "placeholder": "Enter your name", "required": true },
+          { "customId": "reason", "label": "Why do you want to be a Helper?", "style": "Paragraph", "placeholder": "Enter your reason", "required": true }
+        ]
+      },
+      {
+        "id": "apply_event_host",
+        "label": "Event Host",
+        "color": "Success",
+        "role": "YOUR_EVENT_HOST_ROLE_ID",
+        "form": [
+          { "customId": "name", "label": "Name", "style": "Short", "placeholder": "Enter your name", "required": true },
+          { "customId": "experience", "label": "Do you have any event hosting experience?", "style": "Paragraph", "placeholder": "Enter your experience", "required": true }
+        ]
+      }
+    ]
+  }
+  
